@@ -30,7 +30,7 @@ function Project() {
                         { cnt % 2 === 0 ? setModal(false) : setModal(true) }
                     }}
                 ><b>프로젝트 보기</b></button></div>
-                {modal ? <ProjectModal /> : null}
+                {modal ? <ProjectModal />: null}
             </section>
         </div>
     );
