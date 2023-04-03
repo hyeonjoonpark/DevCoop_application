@@ -5,13 +5,12 @@
   * {
     margin: 0;
     padding: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   html {
     color: black;
     scroll-behavior: smooth;
-    background: #FFFFDE;
   }
 
   *:visited, *:link {
@@ -58,7 +57,6 @@
   .intro {
     font-size: 300%;
     font-weight: 900;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .login-btn {
@@ -71,7 +69,7 @@
     font-size: 1.3ch;
     border-radius: 30px;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .project-wrap {
@@ -143,3 +141,25 @@
   .AriPay:hover {
     opacity: 1;
   }
+
+  .stack-btn {
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  .StackModal {
+    margin-top : 30px;
+    display: flex;
+    text-align: center;
+  }
+
+  .StackModal span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .front-end, .back-end, .design {
+    margin-right: 40px;
+    text-align: center;
+  } 
