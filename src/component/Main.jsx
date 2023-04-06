@@ -5,7 +5,6 @@ import StackModal from './Modal/StackModal';
 
 function Main() {
     const [modal, setModal] = useState(false);
-    let cnt=0;
     return (
         <div className='Main'>
             <section className='main-wrap'>
@@ -15,6 +14,7 @@ function Main() {
                 <div className='stack-wrap'>
                     DevCoop은 어떤 인재를 원할까요?<button type='button' className='stack-btn' onClick={
                         () => {
+                            let cnt=0;
                             cnt++;
                             { cnt % 2 === 0 ? setModal(false) : setModal(true) }
                         }

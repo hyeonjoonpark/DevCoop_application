@@ -11,6 +11,7 @@
   html {
     color: black;
     scroll-behavior: smooth;
+    background: #E7F5FE;
   }
 
   *:visited, *:link {
